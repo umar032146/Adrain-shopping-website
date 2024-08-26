@@ -1,0 +1,54 @@
+.dashboard{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 100px 0;
+}
+.menuaccount{
+width: 20%;
+}
+
+.menu-btns{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.menu-btns button{
+    height: 50px;
+    text-align: left;
+    background-color: white;
+    border: 1px solid lightgray;
+    color: black;
+    font-weight: bolder;
+}
+.menu-btns .active{
+    color: white;
+    background-color: rgb(255,99,71);
+    border: none;
+}
+.maindash{
+    width: 60%;
+    /* border: 1px solid black; */
+}
+.maindash p{
+    font-size: 13px;
+}
+.maindash p span{
+    color:rgb(255,99,71);
+}
+@media screen and (max-width: 450px){
+ .dashboard{
+    flex-direction: column;
+    width: 90%;
+    margin: 3% 5%;
+ }   
+ .menuaccount{
+    width: 100%;
+ }
+ .maindash{
+    width: 100%;
+ }
+ .maindash p{
+    padding: 0%;
+ }
+}

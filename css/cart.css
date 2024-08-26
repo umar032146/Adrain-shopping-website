@@ -1,0 +1,113 @@
+.cart{
+    width: 80%;
+    margin: 5% 10%;
+}
+.cart table{
+    width: 100%;
+    border: 1px solid lightgray;
+}
+.cart table thead tr {
+    border: 1px solid lightgray;
+}
+.cart table tbody tr td{
+    text-align: center;
+}
+.cart table tbody tr td input{
+    width: 100px;
+    height: 40px;
+}
+.cart table tr{
+    border: 1px solid lightgray;
+}
+.cart table tbody tr td button{
+    background-color: transparent;
+    border: none;
+    color: rgb(255,99,71);
+}
+.cart table tbody tr td .coupon input{
+    width: 150px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+}
+.cart table tbody tr td .coupon{
+    display: flex;
+}
+.cart table tbody tr td .coupon button{
+    /* padding: 1%; */
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    height: 40px;
+    width: 150px;
+    transition: background-color 0.3s ease;
+}
+.cart table tbody tr .update button{
+    width: 150px;
+    height: 50px;
+    background-color: gray;
+    color: white;
+
+}
+
+.cart-total{
+    margin-top: 20px;
+    width: 30%;
+    margin-left: 70%;
+    border: 1px solid lightgray;
+}
+.cart-total h4{
+    font-size: 15px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.amount{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 1% 5%;
+    padding: 2% 0%;
+    border-bottom: 1px solid lightgray;
+}
+.cart-total button{
+    width: 90%;
+    margin: 3% 5%;
+    height: 40px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(255,99,71);
+}
+@media screen and (max-width: 450px){
+    body{
+        overflow-x: hidden;
+    }
+    .cart{
+        width: 90%;
+        margin: 3% 5%;
+     }   
+     .cart table{
+        display: block;
+        overflow-x: scroll;
+        white-space: nowrap;
+     }  
+     .cart-total{
+        margin: 0%;
+        width: 100%;
+     }
+}
+@media screen and (min-width: 600px) and (max-width: 800px){
+    body{
+        overflow-x: hidden;
+    }
+    .cart{
+        width: 90%;
+        margin: 0% 5%;
+     }   
+     .cart table{
+        display: block;
+        overflow-x: scroll;
+        white-space: nowrap;
+     }  
+}

@@ -1,0 +1,136 @@
+.checkout{
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+    margin: 7% 0%;
+}
+.billing{
+    width: 60%;
+
+    /* border: 1px solid black; */
+}
+.billing h6{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.billing p{
+    font-size: 14px;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+    padding: 2%;
+    width: 90%;
+    margin: 1% 5%;
+}
+.billing p span{
+    color: rgb(255,99,71);
+   
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* margin: 0% 5%; */
+    margin: 3% 0%;
+ }
+
+ .input label{
+    font-size: 14px;
+ }
+.input-row{
+    display: flex;
+    /* justify-content: center; */
+    gap: 20px;
+    width: 96%;
+    margin: 0% 2%;
+}
+
+.input label{
+    margin: 0% 5%;
+}
+.input input{
+    width: 90%;
+    margin: 1% 5%;
+    height: 40px;
+    border: none;
+    background-color:rgb(230, 230, 230);
+}
+.input select{
+    height: 40px;
+    width: 90%;
+    margin: 1% 5%;
+    border: 1px solid lightgray;
+}
+
+.check{
+    width: 90%;
+    margin: 5% 5%;
+}
+.input textarea{
+    width: 90%;
+    height: 100px;
+    margin: 1% 5%;
+    border: 1px solid lightgray;
+}
+
+.order-summary{
+    width: 30%;
+}
+.order-summary form{
+    width: 80%;
+    font-size: 13px;
+}
+.order-summary form p span{
+    color: rgb(255,99,71);
+}
+.order-summary form p{
+    margin: 15% 0%;
+}
+.order-summary form button{
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    background-color:rgb(255,99,71);
+    color: white;
+    font-weight: bolder;
+}
+
+.order{
+    /* border: 1px solid black; */
+    width: 250px;
+    margin-bottom: 20px;
+}
+.order-head{
+    font-size: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+.order-info{
+    display: flex;
+    width: 96%;
+    justify-content: space-between;
+    margin: 0% 2% ;
+    line-height: 10px;
+}
+.order-summary form label{
+    margin: 5% 0%;
+}
+.pay{
+    background-color: gray;
+    padding: 10px;
+    border-radius: 12px;
+}
+@media screen and (max-width: 450px){
+   .checkout{
+    flex-direction: column;
+    width: 90%;
+    margin: 3% 5%;
+   }    
+   .billing{
+    margin: 0%;
+    width: 100%;
+   }
+   .order-summary{
+    width: 100%;
+   }
+}
